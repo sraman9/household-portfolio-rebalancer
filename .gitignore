@@ -1,0 +1,42 @@
+# Dependencies and build artifacts
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+.vite/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE metadata
+.vscode/
+.idea/
+
+# Cursor project metadata (not for submission)
+.cursor/
+
+# ----------------------------------------------------------------------------
+# Submission exclusions
+# These files were used during the build but are not part of the deliverable.
+# Delete lines below or move them out of this section to include them.
+# ----------------------------------------------------------------------------
+
+# Prep notes for the video walkthrough
+VIDEO_SCRIPT.md
+
+# Screenshot automation and captured images
+app/screenshots/
+app/scripts/screenshot-loaded.mjs
+app/scripts/screenshot-preset.mjs
+
+# Rebalancer verification / reproducer scripts (working demos, not real tests)
+app/scripts/verify-overdraft-warning.mjs
+app/scripts/test-with-sample.mjs
